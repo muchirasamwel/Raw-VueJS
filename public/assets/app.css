@@ -1,0 +1,116 @@
+.welc {
+  font-size: 2.2em;
+  font-weight: bolder;
+}
+.welc:hover {
+    cursor: pointer;
+    animation: grow;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    text-shadow: 0px 0px 0px black;
+    font-size: 2.4em;
+}
+h2 .h1 {
+  color: white;
+}
+h2 .h2 {
+  color: cyan;
+}
+@keyframes grow {
+0% {
+    text-shadow: 0px 0px 0px black;
+    font-size: 2.4em;
+}
+17% {
+    text-shadow: 1px 1px 2px black;
+    font-size: 2.8em;
+}
+36% {
+    text-shadow: 2px 2px 4px black;
+    font-size: 3.2em;
+}
+50% {
+    text-shadow: 3px 3px 6px black;
+    font-size: 3.6em;
+}
+68% {
+    text-shadow: 2px 2px 4px black;
+    font-size: 3.2em;
+}
+84% {
+    text-shadow: 1px 1px 2px black;
+    font-size: 2.8em;
+}
+100% {
+    text-shadow: 0px 0px 0px black;
+    font-size: 2.4em;
+}
+}
+
+
+h1 {
+    color: white;
+}
+
+body{
+    background-color: red;
+}
+div div p {
+  color: sandybrown; }
+
+body {
+  margin: 0px; }
+  body #content {
+    margin-left: 2%;
+    margin-right: 2%; }
+
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px; }
+  .home-container .my-logo {
+    grid-column: span 6;
+    height: 200px;
+    background-size: contain;
+    background: url(img/smb.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1.5s; }
+    .home-container .my-logo:hover {
+      background-color: yellow; }
+  .home-container .home-content {
+    grid-column: span 6; }
+  .home-container .fndiv {
+    background-color: green;
+    grid-column: 7/13; }
+
+.nav-bar {
+  background-color: black;
+  color: white;
+}
+.nav-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.nav-center ul {
+    text-align: center;
+    display: inline;
+}
+.nav-center ul li {
+      margin: 10px;
+      display: inline;
+}
+.nav-center ul li a {
+        text-decoration: none;
+        color: white;
+}
+.nav-center ul li a:hover {
+          font-size: 1.2em;
+          font-weight: bolder;
+          color: red;
+}
+.nav-center ul .d {
+      border-left: 2px solid white;
+}
+

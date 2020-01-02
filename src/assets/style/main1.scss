@@ -1,0 +1,38 @@
+div {
+  div {
+    p {
+      color: sandybrown;
+    }
+  }
+}
+body{
+  margin: 0px;
+  #content{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+.home-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  .my-logo{
+    grid-column: span 6;
+    height: 200px;
+    background-size: contain;
+    background: url(../img/smb.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:all 1.5s ;
+    &:hover{
+      background-color: yellow;
+    }
+  }
+  .home-content{
+    grid-column: span 6;
+  }
+  .fndiv{
+    background-color: green;
+    grid-column: 7/13;
+  }
+}
